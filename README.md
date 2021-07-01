@@ -11,7 +11,7 @@ Sockets have traditionally been the solution around which most real-time chat sy
 ## Features
 It has a very simple layout. Users can also exchange messages between them.</br>
 
-**Note : This application works only  on my system. I have to write localhost:1234 on browser's URL (where I hosted my server of this webchat application). So to start my server,  I have to execute script.js file, then server becomes active and open this URL in two tabs of browser (just to look like two persons are chatting from two different system).**
+**Note : This application works only  on my system. I have to write localhost:1234 on browser's URL (where I hosted my server of this webchat application). So to start my server,  I have to execute server.js file, then server becomes active and open this URL in two tabs of browser (just to look like two persons are chatting from two different system).**
 
 ## Operations
 1. First of all user has to login to the web chat app using username and password.</br>
