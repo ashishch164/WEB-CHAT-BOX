@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat Box</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body style="background-color: bisque;">
+    <h1 class="heading" style="text-align: center;" style="text-decoration: red;"> Welcome to our Web Chat App </h1>
+
+    <div id="container_demo" style="padding-top: 20px;">
+        <div id="wrapper">
+            <div id="login" class="animate form" style="width: 100%;">
+                <div id="loginbox">
+                    <form>
+                        <h1>Log in</h1>
+                        <p>
+                            <label for="username" class="uname" data-icon="u"> Your username </label>
+                            <input id="inpusername" name="username" required="required" type="text"
+                                placeholder="username " />
+                        </p>
+                        <p>
+                            <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                            <input id="inppassword" class="form-control " type="password" name="password"
+                                required="required" type="password" placeholder="password " />
+                        </p>
+                        <input type="checkbox" onclick="myFunction()"> Show Password
+                    </form>
+                    <p class="login button">
+                        <input type="submit" value="Login" id="btnstart" />
+                    </p>
+                </div>
+                <div id="chatbox">
+                    <form>
+                        <p style="text-align-last: center;" class="online"> You are online now.</p>
+                        <div class="chat-input">
+                            <p class="whom"> To whom you want to chat with?</p>
+                            <input type="text" id="inptouser" class="sendmsg" placeholder="Mention a name..." />
+                            <br> <br>
+                            <p class="whom" style="margin-bottom: 0px;" style="margin: auto;"> Send a message...</p>
+                            <input type="text" id="inpnewmsg" class="sendmsg" placeholder="Write here..." />
+                        </div>
+                    </form>
+                    <button type="submit" class="chat-submit" id="chat-submit">
+                        <img src="paper-plane.png" id="btnsendmsg" class="sendbutton"></img>
+                    </button>
+                    <ul id="ulmsgs"></ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+</body>
+
+</html>
