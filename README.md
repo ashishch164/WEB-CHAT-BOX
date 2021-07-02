@@ -18,5 +18,11 @@ It has a very simple layout. Users can also exchange messages between them.</br>
 2. After that chat box will open where user can send message to everyone(who are connected to the server) without specifying name.
 3. If user wants to send message to a particular person, then he/she needs to mention his/her name in textbox, then he/she could write message in message box and send message to him/her. They(online users) can also see the messages which they are exchanging between them. </br>
 
+## Installation
+1. First of all create a folder and put all tha files as it is in that folder.
+2. Open cmd and type this following commands and after every command  press enter </br>
+• npm init   </br>
+• npm install express@4 </br>
+• npm i install socket.io <br>
 
 ## Visuals
