@@ -25,4 +25,3 @@ It has a very simple layout. Users can also exchange messages between them.</br>
 • npm install express@4  (This will create node_modules folder and package-lock.json and install express js) </br>
 • npm i install socket.io (This will install socket.io)</br>
 
-## Visuals
