@@ -21,8 +21,8 @@ It has a very simple layout. Users can also exchange messages between them.</br>
 ## Installation
 1. First of all create a folder and put all tha files as it is in that folder.
 2. Open cmd and type this following commands and after every command  press enter </br>
-• npm init   </br>
-• npm install express@4 </br>
-• npm i install socket.io <br>
+• npm init   (This will create package.json) </br>
+• npm install express@4  (This will create node_modules folder and package-lock.json and install express js) </br>
+• npm i install socket.io (This will install socket.io)</br>
 
 ## Visuals
