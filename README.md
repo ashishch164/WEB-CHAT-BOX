@@ -2,6 +2,7 @@
 ## Description
 •	Developed a Web-chat Box using socket.io, in which one person can send message to everyone (who are connected to the server) in one go or individually and also receive messages from them.</br>
 •	**Tech stack used: HTML, CSS, JavaScript, socket.io, express**</br></br>
+• IDE used: Visual Studio Code</br>
 ->Why i choose socket.io for this ??
 
 Writing a chat application with popular web applications stacks like LAMP (PHP) has normally been very hard. It involves polling the server for changes, keeping track of timestamps, and it’s a lot slower than it should be.
