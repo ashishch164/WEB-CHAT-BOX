@@ -1,6 +1,6 @@
-let socket = io()
-$('#loginbox').show()
-$('#chatbox').hide()
+let socket = io();
+$('#loginbox').show();
+$('#chatbox').hide();
 
 $('#btnstart').click(() => {
     socket.emit('login', {
@@ -9,13 +9,13 @@ $('#btnstart').click(() => {
     })
 })
 socket.on('logged_in', () => {
-    $('#loginbox').hide()
-    window.alert('Sucessfully logged in')
-    $('#chatbox').show()
+    $('#loginbox').hide();
+    window.alert('Sucessfully logged in');
+    $('#chatbox').show();
 
 })
 socket.on('login_failed', () => {
-    window.alert('wrong username or password')
+    window.alert('wrong username or password');
 })
 
 $('#btnsendmsg').click(() => {
@@ -29,8 +29,8 @@ socket.on('msg_rcvd', (data) => {
     $('#ulmsgs').append($('<li>').text(
         `${data.from} :   ${data.msg}`
     ))
-    console.log(data.from)
-})
+ })
+
 function myFunction() {
     var x = document.getElementById("inppassword");
     if (x.type === "password") {
